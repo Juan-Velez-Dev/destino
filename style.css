@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 25px;
+  text-decoration: none;
+  background-color: #9b28e0;
+}
+
+.app-box {
+  width: 500px;
+  margin: 100px auto;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: rgb(111, 52, 221);
+  color: white;
+  text-align: center;
+  box-shadow: 7px -2px 38px 0px rgba(0, 0, 0, 0.54);
+}
+
+.app-box .app-title {
+  margin: 20px auto;
+}
+.app-box .app-ask {
+  display: flex;
+  flex-direction: column;
+}
+
+.app-box .app-ask label {
+  margin-bottom: 10px;
+}
+
+.app-box .app-ask input {
+  padding: 7px;
+  margin: 0 30px;
+  border-radius: 10px;
+  border: 0;
+}
+
+.app-box .app-button input {
+  font-size: 18px;
+  margin: 20px auto;
+  padding: 7px 17px;
+  background-color: #9b28e0;
+  border: 0;
+  color: white;
+  border-radius: 10px;
+}
+
+.app-box .app-button input:hover {
+  background-color: #8a25c5;
+  cursor: pointer;
+}
+
+.app-box .app-answer {
+  margin: 20px 0;
+}
+
+.app-box .app-answer h2 {
+  font-size: 30px;
+}
